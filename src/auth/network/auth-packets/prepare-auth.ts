@@ -3,6 +3,7 @@ import {
   writeD,
   writeB,
 } from '../../../commons/network/base-sendable-packet';
+import { Auth } from '../../auth';
 
 class PrepareAuth {
   constructor(publicKey: Uint8Array) {
